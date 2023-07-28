@@ -151,12 +151,8 @@ var responseTemplate = `<!DOCTYPE html>
     <body>
 			<h1>Response successful</h1>
 			<p>Your response: </p>
-			<pre>
-			<code>
-{{ .Data }}
-			</code>
-			</pre>
-			<p><b>Bookmark this page</b> as a receipt or if you want to review what you responded some time in the future</p>
+			<pre><code>{{ .Data }}</code></pre>
+			<p><b>Bookmark this page</b> as a receipt or if you want to review what you responded some time in the future.</p>
 	</body>
 </html>`
 
